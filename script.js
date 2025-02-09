@@ -10,7 +10,7 @@ let fruits = [
     "Indian Fig", "Indian Gooseberry", "Ice Apple", "Jackfruit", "Jujube", "Java Plum",
     "Kiwi", "Kumquat", "Kei Apple", "Lemon", "Lime", "Lychee", "Mango", "Melon", "Mulberry", "Nectarine", "Nance", "Nutmeg",
     "Orange", "Olive", "Oregon Grape", "Pineapple", "Papaya", "Peach", "Quince", "Queen Apple", "Quandong", "Raspberry", "Redcurrant", "Rambutan",
-    "Strawberry", "Sapodilla", "Starfruit", "Tangerine", "Tomato", "Tamarind", "Ugli Fruit", "Ububese", "Umbu",
+    "Strawberry", "Sapodilla", "Starfruit", "Tangerine", "Tomato", "Tamarind", "Ugli Fruit", "Ububese", "Uvaia",
     "Vanilla", "Velvet Apple", "Velvet Tamarind", "Watermelon", "Wolfberry", "White Mulberry", "Xigua", "Ximenia", "Xylocarpus",
     "Yellow Passionfruit", "Yunnan Hackberry", "Yangmei", "Zucchini", "Ziziphus", "Zinfandel Grape",
 ];
