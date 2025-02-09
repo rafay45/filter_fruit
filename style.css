@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 95vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#output {
+    cursor: pointer;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    bottom: 80%;
+    left: 21%;
+    width: 60vw;
+    border: 4px solid black;
+    height: 10vh;
+    box-shadow: 0px 8px 12px gray;
+    border-radius: 10px;
+}
+
+.keyboard {
+    bottom: 1%;
+    left: 11%;
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+    grid-template-columns: repeat(15, 1fr);
+    gap: 5px;
+    padding: 20px;
+    background: #34495e;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.key {
+    background: rgb(26, 25, 25);
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px #bdc3c7;
+    min-width: 40px;
+    border: none;
+}
+
+.key:hover {
+    background: #bdc3c7;
+    color: black;
+}
+
+.key:active {
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+.key.wide {
+    grid-column: span 2;
+}
+
+.key.space {
+    grid-column: span 6;
+}
+
+.key.ctrl,
+.key.fn,
+.key.alt {
+    grid-column: span 2;
+}
+
+.key.wide.shift {
+    grid-column: span 3;
+}
