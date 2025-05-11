@@ -129,14 +129,13 @@ let sounds = {
     "Not fruit found": "sounds/Not_fruits_found"
 };
 
-
-
 function displayKey(a) {
-    let filterFruits = fruits.filter(fruit => fruit[0] === a)
+    let filterFruits = fruits.filter(fruit => fruit[0] === a);
 
     if (filterFruits.length > 0) {
         let randomFruits = Math.floor(Math.random() * filterFruits.length)
         let resultFruits = filterFruits[randomFruits]
+
         document.getElementById("output").innerHTML = resultFruits
 
         if (sounds[resultFruits]) {
@@ -145,7 +144,6 @@ function displayKey(a) {
         }
     } else {
         document.getElementById("output").innerHTML = "Not fruits found"
-       
     }
 }
 
